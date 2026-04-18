@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Mehrdad Mirzaei — AI/ML Engineer and Data Scientist building scalable AI systems and LLM-powered applications."
+    />
+    <title>Mehrdad Mirzaei | AI/ML Engineer & Data Scientist</title>
+
+    <!-- Fonts: swap Inter from Google Fonts (optional external dependency) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ========== Site header / sticky navigation ========== -->
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary">
+        <a class="nav__brand" href="#">Mehrdad Mirzaei</a>
+
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open menu"
+        >
+          <span class="nav__toggle-bar" aria-hidden="true"></span>
+          <span class="nav__toggle-bar" aria-hidden="true"></span>
+          <span class="nav__toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav__links" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- ========== Hero ========== -->
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="container hero__inner">
+          <div class="hero__content section-animate">
+            <h1 id="hero-title" class="hero__title">Mehrdad Mirzaei</h1>
+            <p class="hero__subtitle">AI/ML Engineer | Data Scientist</p>
+            <p class="hero__tagline">
+              Building scalable AI systems and LLM-powered applications
+            </p>
+
+            <div class="hero__actions">
+              <!-- CTA: jumps to Projects -->
+              <a class="btn btn--primary" href="#projects">View Projects</a>
+              <!-- Edit href when you host a PDF (e.g. /resume.pdf) -->
+              <a class="btn btn--outline" href="#">Download Resume</a>
+            </div>
+
+            <nav class="hero__social" aria-label="Social profiles">
+              <!-- Replace # with your real profile URLs -->
+              <a
+                class="icon-link"
+                href="https://github.com/mehrgod"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                  />
+                </svg>
+              </a>
+              <a
+                class="icon-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== About ========== -->
+      <section class="section section--alt" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <h2 id="about-title" class="section__title section-animate">About</h2>
+          <div class="section__intro section-animate">
+            <p class="about__text">
+              I am a data scientist and ML engineer with a strong background in machine learning,
+              statistical modeling, and production-ready pipelines. My work spans large language
+              models, retrieval-augmented generation (RAG), and cloud ML on AWS—including SageMaker
+              and Bedrock—to deliver systems that are accurate, observable, and reliable in
+              production.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Skills ========== -->
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <h2 id="skills-title" class="section__title section-animate">Skills</h2>
+          <div class="skills-grid">
+            <article class="card card--skill section-animate">
+              <h3 class="card__title">Programming</h3>
+              <ul class="tag-list">
+                <li>Python</li>
+                <li>Java</li>
+                <li>R</li>
+                <li>Scala</li>
+              </ul>
+            </article>
+            <article class="card card--skill section-animate">
+              <h3 class="card__title">ML / AI</h3>
+              <ul class="tag-list">
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>NLP</li>
+                <li>LLMs</li>
+                <li>RAG</li>
+              </ul>
+            </article>
+            <article class="card card--skill section-animate">
+              <h3 class="card__title">Tools</h3>
+              <ul class="tag-list">
+                <li>AWS (SageMaker, Bedrock)</li>
+                <li>Docker</li>
+                <li>CI/CD</li>
+              </ul>
+            </article>
+            <article class="card card--skill section-animate">
+              <h3 class="card__title">Data</h3>
+              <ul class="tag-list">
+                <li>SQL</li>
+                <li>Spark</li>
+                <li>Pandas</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Projects ========== -->
+      <section class="section section--alt" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title" class="section__title section-animate">Projects</h2>
+          <p class="section__lede section-animate">
+            Selected work focused on retrieval, forecasting, and LLM-driven analysis.
+          </p>
+
+          <div class="projects-grid">
+            <!-- Edit descriptions and replace # with repo URLs when ready -->
+            <article class="card card--project section-animate">
+              <h3 class="card__title">RAG-based Question Answering System</h3>
+              <p class="card__text">
+                End-to-end pipeline that ingests documents, embeds chunks, and retrieves context
+                for grounded answers with citations—tuned for latency and answer quality.
+              </p>
+              <p class="card__meta"><strong>Tech:</strong> Python, vector DB, LLM APIs, FastAPI</p>
+              <a class="card__link" href="#">View on GitHub</a>
+            </article>
+
+            <article class="card card--project section-animate">
+              <h3 class="card__title">Shift Attendance Prediction Model</h3>
+              <p class="card__text">
+                Predictive models for workforce attendance using historical schedules and signals
+                from operations; deployed with monitoring for drift and business KPI tracking.
+              </p>
+              <p class="card__meta"><strong>Tech:</strong> Python, scikit-learn, Spark, MLflow</p>
+              <a class="card__link" href="#">View on GitHub</a>
+            </article>
+
+            <article class="card card--project section-animate">
+              <h3 class="card__title">LLM-powered Call Analysis System</h3>
+              <p class="card__text">
+                Automated summarization and structured extraction from contact-center audio and text,
+                with guardrails for PII and human-in-the-loop review where needed.
+              </p>
+              <p class="card__meta"><strong>Tech:</strong> Python, AWS Bedrock, batch inference, NLP</p>
+              <a class="card__link" href="#">View on GitHub</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Experience ========== -->
+      <!-- Replace titles, companies, and bullets with your real history -->
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <h2 id="experience-title" class="section__title section-animate">Experience</h2>
+
+          <div class="timeline">
+            <article class="experience-block section-animate">
+              <header class="experience-block__header">
+                <h3 class="experience-block__title">Senior ML / Data Scientist</h3>
+                <p class="experience-block__company">Example Analytics Inc.</p>
+                <p class="experience-block__period">2023 — Present</p>
+              </header>
+              <ul class="experience-block__list">
+                <li>
+                  Shipped RAG services that cut average research time for analysts by grounding
+                  answers in internal docs with measurable precision/recall targets.
+                </li>
+                <li>
+                  Owned SageMaker pipelines for training, evaluation, and promotion—with CI/CD and
+                  model cards for auditability.
+                </li>
+                <li>
+                  Partnered with product and infra to harden monitoring (latency, errors, data
+                  drift) for models in production.
+                </li>
+              </ul>
+            </article>
+
+            <article class="experience-block section-animate">
+              <header class="experience-block__header">
+                <h3 class="experience-block__title">Machine Learning Engineer</h3>
+                <p class="experience-block__company">North River Labs</p>
+                <p class="experience-block__period">2020 — 2023</p>
+              </header>
+              <ul class="experience-block__list">
+                <li>
+                  Built forecasting and classification models on large tabular and time-series
+                  datasets; standardized feature pipelines in Spark and Python.
+                </li>
+                <li>
+                  Containerized training and batch scoring with Docker; reduced failed deploys via
+                  automated tests and smoke checks.
+                </li>
+                <li>
+                  Delivered dashboards and SQL deep-dives that aligned model improvements with revenue
+                  and operational outcomes.
+                </li>
+              </ul>
+            </article>
+
+            <article class="experience-block section-animate">
+              <header class="experience-block__header">
+                <h3 class="experience-block__title">Data Scientist</h3>
+                <p class="experience-block__company">Harbor Insights</p>
+                <p class="experience-block__period">2018 — 2020</p>
+              </header>
+              <ul class="experience-block__list">
+                <li>
+                  Prototyped NLP solutions for document triage; production path considered latency,
+                  cost, and governance constraints.
+                </li>
+                <li>
+                  Translated ambiguous business questions into metrics, baselines, and experiment
+                  plans stakeholders could trust.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Contact ========== -->
+      <section class="section section--alt" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title" class="section__title section-animate">Contact</h2>
+          <div class="contact panel section-animate">
+            <p class="contact__message">Feel free to reach out.</p>
+            <ul class="contact__list">
+              <li>
+                <span class="contact__label">Email</span>
+                <!-- Replace with your address -->
+                <a href="mailto:you@example.com">you@example.com</a>
+              </li>
+              <li>
+                <span class="contact__label">GitHub</span>
+                <a href="https://github.com/mehrgod" target="_blank" rel="noopener noreferrer"
+                  >github.com/mehrgod</a
+                >
+              </li>
+              <li>
+                <span class="contact__label">LinkedIn</span>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                  >linkedin.com/in/yourprofile</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== Footer ========== -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__copy">&copy; 2026 Mehrdad Mirzaei. All rights reserved.</p>
+        <nav class="footer__social" aria-label="Footer social links">
+          <a
+            class="icon-link icon-link--small"
+            href="https://github.com/mehrgod"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                fill="currentColor"
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+              />
+            </svg>
+          </a>
+          <a
+            class="icon-link icon-link--small"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                fill="currentColor"
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+              />
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
