@@ -646,11 +646,23 @@ ul {
 }
 
 .contact__label {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  text-transform: none;
+  letter-spacing: 0.01em;
   color: var(--color-text-muted);
+}
+
+.contact__list a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact__list a:hover,
+.contact__list a:focus-visible {
+  color: var(--color-accent);
+  text-decoration: underline;
 }
 
 /* --- Footer --- */
