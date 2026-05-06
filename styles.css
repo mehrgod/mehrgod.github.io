@@ -576,6 +576,44 @@ ul {
   margin-bottom: 0;
 }
 
+/* --- Publications --- */
+.publication-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  max-width: 56rem;
+}
+
+.publication-item {
+  margin-bottom: var(--space-lg);
+}
+
+.publication-item:last-child {
+  margin-bottom: 0;
+}
+
+.publication-item__title {
+  margin: 0 0 0.35rem;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.publication-item__title a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.publication-item__title a:hover,
+.publication-item__title a:focus-visible {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.publication-item__meta {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
 /* --- Education --- */
 .education-list {
   display: flex;
